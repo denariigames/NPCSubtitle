@@ -10,7 +10,7 @@ using Cysharp.Text;
 using UnityEngine;
 using NightBlade;
 
-namespace DenariiGames.Characters
+namespace DenariiGames
 {
 	[RequireComponent(typeof(NpcEntity))]
 	public class UINpcEntitySubtitle : MonoBehaviour
