@@ -1,19 +1,16 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace NightBlade
+[CustomEditor(typeof(NightBlade.UINpcEntitySubtitle))]
+public class UINpcEntitySubtitleEditor : Editor
 {
-	[CustomEditor(typeof(UINpcEntitySubtitle))]
-	public class UINpcEntitySubtitleEditor : Editor
+	public override void OnInspectorGUI()
 	{
-		public override void OnInspectorGUI()
-		{
-			serializedObject.Update();
+		serializedObject.Update();
 
-			EditorGUILayout.PropertyField(serializedObject.FindProperty("uiTextSubtitle"));
-			EditorGUILayout.PropertyField(serializedObject.FindProperty("formatKeySubtitle"));
+		EditorGUILayout.PropertyField(serializedObject.FindProperty("uiTextSubtitle"));
+		EditorGUILayout.PropertyField(serializedObject.FindProperty("formatKeySubtitle"));
 
-			serializedObject.ApplyModifiedProperties();
-		}
+		serializedObject.ApplyModifiedProperties();
 	}
 }
