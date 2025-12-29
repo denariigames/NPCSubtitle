@@ -1,9 +1,9 @@
 {
-  "name": "com.denariigames.packageTest2",
-  "displayName": "Package Test 2",
-  "version": "2.1.0",
-  "updateDate": "2025-12-01",
+  "name": "com.denariigames.npcsubtitle",
+  "displayName": "NPC Subtitle",
+  "version": "1.0.0",
+  "updateDate": "2025-12-29",
   "author": "Denarii Games",
   "category": "Characters",
-  "description": "This is a test package for the new Addon Manager.\n\nThis is a new line."
+  "description": "Adds subtitle field to NPC entities. Useful if you want to show a role below the name."
 }
