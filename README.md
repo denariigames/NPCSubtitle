@@ -4,5 +4,8 @@ An addon for NightBlade MMO that adds a subtitle field to NPC entities. Useful i
 
 ## Usage
 
-1. Edit your existing CanvasNpcUI prefab and replace the UI Npc Entity component
-2. or reference CanvasNpcSubtitleUI prefab in GameInstance.
+Edit your existing CanvasNpcUI prefab and replace the UI Npc Entity component
+
+-or-
+
+Reference CanvasNpcSubtitleUI prefab in GameInstance
