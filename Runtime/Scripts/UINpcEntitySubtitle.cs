@@ -3,7 +3,7 @@
  * Author: Denarii Games
  * Version: 1.0
  *
- * Replace component on CanvasNpcUI or use prefab CanvasNpcSubtitleUI.
+ * Add component to CanvasNpcUI or use prefab CanvasNpcSubtitleUI.
  */
 
 using Cysharp.Text;
@@ -11,14 +11,15 @@ using UnityEngine;
 
 namespace NightBlade
 {
-	public partial class UINpcEntitySubtitle : UINpcEntity
+	[RequireComponent(typeof(NpcEntity))]
+	public class UINpcEntitySubtitle : MonoBehaviour
 	{
 		[Header("NPC Entity - UI Elements")]
 		public TextWrapper uiTextSubtitle;
 
 		[Header("NPC Entity - String Formats")]
 		public UILocaleKeySetting formatKeySubtitle = new UILocaleKeySetting(UIFormatKeys.UI_FORMAT_SIMPLE);
-
+/*
 		protected override void AddEvents(NpcEntity entity)
 		{
 			base.AddEvents(entity);
@@ -58,5 +59,6 @@ namespace NightBlade
 				LanguageManager.GetText(formatKeySubtitle),
 				tempTitle);
 		}
+*/
 	}
 }
