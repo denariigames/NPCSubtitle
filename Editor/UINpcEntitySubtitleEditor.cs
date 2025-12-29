@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(NightBlade.UINpcEntitySubtitle))]
+[CustomEditor(typeof(DenariiGames.Characters.UINpcEntitySubtitle))]
 public class UINpcEntitySubtitleEditor : Editor
 {
 	public override void OnInspectorGUI()
