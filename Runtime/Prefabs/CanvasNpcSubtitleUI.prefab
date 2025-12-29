@@ -161,9 +161,6 @@ GameObject:
   - component: {fileID: 114816897185090602}
   - component: {fileID: 114016002297912890}
   - component: {fileID: 6611669449869674853}
-  - component: {fileID: 6894295549668540605}
-  - component: {fileID: 7389619969705513806}
-  - component: {fileID: 2194235863254499076}
   m_Layer: 15
   m_Name: CanvasNpcSubtitleUI
   m_TagString: Untagged
@@ -236,7 +233,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &114816897185090602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,99 +302,6 @@ MonoBehaviour:
       m_Calls: []
   visibility: 0
   visibleDistance: 30
---- !u!114 &6894295549668540605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833052324183146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 543e9e1a6b1ab354eb13dd027408b45c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiTextSubtitle: {fileID: 5630709760428416116}
-  formatKeySubtitle:
-    useCustomValue: 0
-    localeKey: 5
-    customKey: 
-    customValue: 
---- !u!114 &7389619969705513806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833052324183146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56367cc2ed44f1e49835e9c247771fd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  autoAssignAssetIdIfEmpty: 1
-  forceUseAssetGUIDAsAssetId: 0
-  assetId: cad58e19b379d224ea8b6f51aed83e01
-  autoAssignSceneObjectIdIfEmpty: 1
-  sceneObjectId: CanvasNpcSubtitleUI_1
-  networkedObjectId: 0
-  syncChannelId: 0
-  defaultRpcChannelId: 0
-  visibleRange: 0
-  alwaysVisible: 0
-  doNotDestroyWhenDisconnect: 0
-  poolingSize: 0
-  onGetInstance:
-    m_PersistentCalls:
-      m_Calls: []
-  onSubscriberAdded:
-    m_PersistentCalls:
-      m_Calls: []
-  onSubscriberRemoved:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &2194235863254499076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833052324183146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63cc64f65698fa44aaaa52ff43e108f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _behaviourIndex: 0
-  syncMetaDataId:
-    _behaviour: {fileID: 0}
-    _elementId: 0
-    logTagName: 
-  entityTitle: 
-  entityTitles: []
-  syncTitle:
-    _behaviour: {fileID: 0}
-    _elementId: 0
-    logTagName: 
-  ownerObjects: []
-  nonOwnerObjects: []
-  model: {fileID: 0}
-  cameraTargetTransform: {fileID: 0}
-  fpsCameraTargetTransform: {fileID: 0}
-  canSideSprint: 0
-  canBackwardSprint: 0
-  activatableDistance: 0
-  startDialog: {fileID: 0}
-  graph: {fileID: 0}
-  characterUiTransform: {fileID: 0}
-  miniMapUiTransform: {fileID: 0}
-  questIndicatorContainer: {fileID: 0}
-  entitySubtitle: 
-  entitySubtitles: []
-  syncSubtitle:
-    _behaviour: {fileID: 0}
-    _elementId: 0
-    logTagName: 
 --- !u!1 &4184535509892008477
 GameObject:
   m_ObjectHideFlags: 0
