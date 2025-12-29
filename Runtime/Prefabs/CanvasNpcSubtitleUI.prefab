@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 114882458259219630}
   - component: {fileID: 114816897185090602}
   - component: {fileID: 114016002297912890}
-  - component: {fileID: 7465122647623660619}
+  - component: {fileID: 6894295549668540605}
   m_Layer: 15
   m_Name: CanvasNpcSubtitleUI
   m_TagString: Untagged
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &114816897185090602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scale: {x: 0.01, y: 0.01, z: 0.01}
---- !u!114 &7465122647623660619
+--- !u!114 &6894295549668540605
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -269,7 +269,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1833052324183146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ca5a0fd8620b7a498960358ffeefa44, type: 3}
+  m_Script: {fileID: 11500000, guid: 543e9e1a6b1ab354eb13dd027408b45c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hideOnAwake: 0
