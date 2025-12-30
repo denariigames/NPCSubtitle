@@ -2,11 +2,11 @@
   "name": "NPC Subtitle",
   "packageUrl": "https://github.com/denariigames/NPCSubtitle/raw/refs/heads/master/NPCSubtitle.unitypackage",
   "version": "1.0.0",
+  "updateDate": "2025-12-29",
   "author": {
     "name": "Denarii Games",
 	"url": "https://x.com/WildMMO"
   },
-  "updateDate": "2025-12-29",
   "nightbladeMin": "1.95",
   "category": "Characters",
   "description": "Adds subtitle field to NPC entities. Useful if you want to show a role below the name.",
