@@ -1,6 +1,6 @@
 {
-  "packageName": "NPCSubtitle",
-  "displayName": "NPC Subtitle",
+  "name": "NPC Subtitle",
+  "packageUrl": "https://github.com/denariigames/NPCSubtitle/raw/refs/heads/master/NPCSubtitle.unitypackage",
   "version": "1.0.0",
   "author": {
     "name": "Denarii Games",
